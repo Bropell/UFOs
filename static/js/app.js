@@ -22,12 +22,12 @@ function buildTable(data) {
 
             let cell = row.append("td");
             cell.text(val);
-        });
+            }
+        );
     });
 };
 
-function handleClick() {
-
+function handleClick() {    
     // Grab the datetime value from the filter
     let date = d3.select("#datetime").property("value");
     let filteredData = tableData;
@@ -43,9 +43,8 @@ function handleClick() {
     // NOTE: if no date was enetered, then filteredData will just be the original tableData
     buildTable(filteredData);
 }; 
-
 // Attach an event to listen for the form button
-d3.selectAll("filter-btn").on("click", handleClick);
+d3.selectAll("#filter-btn").on("click", handleClick);
 
 // Build the table when the page loads
 buildTable(tableData);
