@@ -23,3 +23,8 @@ If there are no results that match the filter criteria, the table will not displ
 seen in the image below where the country was set to "ru".
 ![alt text](https://github.com/Bropell/UFOs/blob/main/static/images/webpage_no_match.png)
 ## Summary
+Although this webpage has a clean and useful design, there are some drawbacks that leave room for further improvements.
+One major drawback of the new design is that the dataset is very limited and filters such as "country" are relatively useless
+because only two rows contain data from other countries. Therefore, one major improvement would be including data from 
+other countries such that all the filters can be used more efficiently. Another possible improvement would be putting the table inside a window with a set size and scrollbar so the user can maintain a visual on the filter criteria while simultaneously 
+viewing the actual data. This would be especially useful if the dataset was larger and more rows were returned after filtering.
