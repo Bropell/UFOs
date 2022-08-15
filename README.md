@@ -8,7 +8,18 @@ accommodate for the additional filters.
 ## Results
 Using the filters on the webpage is very simple and the filter functions will automatically begin filtering the
 data once information is entered into the boxes. A visual walkthrough is provided below starting with the 
-unfiltered webpage.
+unfiltered webpage which displays all of the data.
 ![alt text](https://github.com/Bropell/UFOs/blob/main/static/images/webpage_unfiltered.png)
- 
+
+Below is an example of what data would be displayed if a single filter was applied for the city set to "el cajon".
+There are five rows of data that match this criteria. 
+![alt text](https://github.com/Bropell/UFOs/blob/main/static/images/webpage_one_filter.png)
+
+Adding an additional filter for the shape set to "triangle" narrows the search even further. As seen in the image
+below, there are two rows of data that match the criteria with two filters applied. 
+![alt text](https://github.com/Bropell/UFOs/blob/main/static/images/webpage_multi_filter.png)
+
+If there are no results that match the filter criteria, the table will not display any rows of data which can be
+seen in the image below where the country was set to "ru".
+![alt text](https://github.com/Bropell/UFOs/blob/main/static/images/webpage_no_match.png)
 ## Summary
